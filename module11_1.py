@@ -20,7 +20,7 @@ arr *= 2
 print("\nМассив после умножения на 2:")
 print(arr)
 
-# загрузка изображение, измение размера, сохранение измененного изображения
+# загрузка изображения, изменение размера, сохранение измененного изображения
 image = Image.open('YZzxTz0hddU.jpg')
 resized_image = image.resize((800, 900))
 resized_image.save('resized_image.jpg')
